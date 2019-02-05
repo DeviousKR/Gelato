@@ -17,3 +17,118 @@ body {
   background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
   background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
 }
+
+/*Title*/
+
+h1 {
+  font-size:3em;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 0px;
+}
+
+h1 span {
+  display:inline-block;
+}
+
+span:nth-child(4n-3) {
+  color:hsl(242, 75%, 55%);
+  text-shadow:1px 1px hsl(242, 75%, 45%),
+  2px 2px hsl(242, 45%, 45%),
+  3px 3px hsl(242, 45%, 45%),
+  4px 4px hsl(242, 75%, 45%);
+  margin-left: .5em;
+
+}
+
+span:nth-child(4n-1) {
+  color:hsl(194, 35%, 55%);
+  text-shadow:1px 1px
+  hsl(194, 35%, 45%), 2px 2px
+  hsl(194, 35%, 45%), 3px 3px
+  hsl(194, 35%, 45%), 4px 4px
+  hsl(194, 35%, 45%);
+  margin-left: .5em;
+
+}
+
+span:nth-child(4n-2) {
+  color:hsl(194, 100%, 89%);
+  text-shadow:1px 1px
+  hsl(194, 100%, 79%), 2px 2px
+  hsl(194, 100%, 79%), 3px 3px
+  hsl(194, 100%, 79%), 4px 4px
+  hsl(194, 100%, 79%);
+  margin-left: .5em;
+
+
+}
+
+span:nth-child(4n) {
+  color:hsl(239, 100%, 89%);
+  text-shadow:1px 1px
+  hsl(239, 100%, 79%), 2px 2px
+  hsl(239, 100%, 79%), 3px 3px
+  hsl(239, 100%, 79%), 4px 4px
+  hsl(239, 100%, 79%);
+  margin-left: .5em;
+
+}
+
+/*video player*/
+
+.YTframe iframe {
+  width: 50vw;
+  height: 50vh;
+  margin-left: 12.5vw;
+  margin-top: 8vw;
+  box-shadow:0 0 50px -12px #000;
+  position: relative;
+  float: left;
+}
+
+/*banner*/
+
+.YTinfo {
+    width: 25.5vw;
+    height: 50vh;
+    margin-right: 2.5vw;
+    margin-top: 8vw;
+    box-shadow:0 0 50px -12px #000;
+    position: relative;
+    float: right;
+    background-color: hsla(188, 0%, 11%, 1);
+}
+
+.YTinfo a {
+  color: #ffffff;
+}
+
+.YTinfo a:hover {
+  color: green;
+}
+
+.YTinfo h2 {
+    font-size: 2em;
+    text-align: left;
+    color: white;
+    padding: .25em
+}
+
+.YTinfo>p>img {
+    height: 30vh;
+    width: 16vw;
+    margin-left: 4.75vw;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+.YTinfo p:nth-child(2) {
+  text-align: center;
+  color: white;
+}
+
+.YTinfo p:nth-child(4) {
+  color: #e5e5e5;
+  padding: .25em
+}
