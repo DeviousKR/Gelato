@@ -75,13 +75,87 @@ span:nth-child(4n) {
 
 }
 
+/*Top Menu*/
+
+.topmenu {
+    font-family: monospace;
+    position:absolute;
+    top: 0;
+    left: 92vw;
+}
+
+ul {
+  background: hsla(188, 0%, 11%, 1);
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    width: 6vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+li {
+    color: #fff;
+    background: hsla(188, 0%, 11%, 1);
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    width: 6vw;
+    text-align: center;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+li:hover,
+li:focus-within {
+    background: green;
+    cursor: pointer;
+}
+
+li:focus-within a {
+  outline: none;
+}
+
+ul li ul {
+    background: hsla(188, 0%, 11%, 1);
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+   visibility: visible;
+   opacity: 1;
+   display: block;
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
+
+
+
 /*video player*/
 
 .YTframe iframe {
   width: 50vw;
   height: 50vh;
-  margin-left: 12.5vw;
-  margin-top: 8vw;
+  margin-left: 8.5vw;
+  margin-top: 10vw;
   box-shadow:0 0 50px -12px #000;
   position: relative;
   float: left;
@@ -92,8 +166,8 @@ span:nth-child(4n) {
 .YTinfo {
     width: 25.5vw;
     height: 50vh;
-    margin-right: 2.5vw;
-    margin-top: 8vw;
+    margin-right: 8.5vw;
+    margin-top: 10vw;
     box-shadow:0 0 50px -12px #000;
     position: relative;
     float: right;
