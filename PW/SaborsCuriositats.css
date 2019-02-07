@@ -17,3 +17,80 @@ body {
   background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
   background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
 }
+
+/*top menu*/
+
+.topmenu {
+    font-family: monospace;
+    position:absolute;
+    top: 0;
+    left: 92vw;
+}
+
+ul {
+  background: hsla(188, 0%, 11%, 1);
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    width: 6vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+li {
+    float: left;
+    padding: 1rem;
+    transition-duration: 0.5s;
+    width: 6vw;
+    text-align: center;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+li ul li:hover,
+li ul li:focus-within {
+    background: green;
+    cursor: pointer;
+}
+
+li:focus-within a {
+  outline: none;
+}
+
+ul li ul {
+    background: hsla(188, 0%, 11%, 1);
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+   visibility: visible;
+   opacity: 1;
+   display: block;
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+    color: #fff;
+    background: hsla(188, 0%, 11%, 1);
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    width: 6vw;
+    text-align: center;
+}

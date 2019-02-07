@@ -95,13 +95,8 @@ ul {
 }
 
 li {
-    color: #fff;
-    background: hsla(188, 0%, 11%, 1);
-    display: block;
     float: left;
     padding: 1rem;
-    position: relative;
-    text-decoration: none;
     transition-duration: 0.5s;
     width: 6vw;
     text-align: center;
@@ -112,8 +107,8 @@ li a {
     text-decoration: none;
 }
 
-li:hover,
-li:focus-within {
+li ul li:hover,
+li ul li:focus-within {
     background: green;
     cursor: pointer;
 }
@@ -145,6 +140,16 @@ ul li ul:focus {
 ul li ul li {
     clear: both;
     width: 100%;
+    color: #fff;
+    background: hsla(188, 0%, 11%, 1);
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    width: 6vw;
+    text-align: center;
 }
 
 
