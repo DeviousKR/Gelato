@@ -18,6 +18,71 @@ body {
   background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
 }
 
+/*Title*/
+
+h1 {
+  font-size:3em;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 0px;
+}
+
+h1 span {
+  display:inline-block;
+}
+
+span:nth-child(4n-3) {
+  color:hsl(242, 75%, 55%);
+  text-shadow:1px 1px hsl(242, 75%, 45%),
+  2px 2px hsl(242, 45%, 45%),
+  3px 3px hsl(242, 45%, 45%),
+  4px 4px hsl(242, 75%, 45%);
+  margin-left: .5em;
+
+}
+
+span:nth-child(4n-1) {
+  color:hsl(194, 35%, 55%);
+  text-shadow:1px 1px
+  hsl(194, 35%, 45%), 2px 2px
+  hsl(194, 35%, 45%), 3px 3px
+  hsl(194, 35%, 45%), 4px 4px
+  hsl(194, 35%, 45%);
+  margin-left: .5em;
+
+}
+
+span:nth-child(4n-2) {
+  color:hsl(194, 100%, 89%);
+  text-shadow:1px 1px
+  hsl(194, 100%, 79%), 2px 2px
+  hsl(194, 100%, 79%), 3px 3px
+  hsl(194, 100%, 79%), 4px 4px
+  hsl(194, 100%, 79%);
+  margin-left: .5em;
+
+
+}
+
+span:nth-child(4n) {
+  color:hsl(239, 100%, 89%);
+  text-shadow:1px 1px
+  hsl(239, 100%, 79%), 2px 2px
+  hsl(239, 100%, 79%), 3px 3px
+  hsl(239, 100%, 79%), 4px 4px
+  hsl(239, 100%, 79%);
+  margin-left: .5em;
+
+}
+
+span:nth-child(6) {
+  margin-left: .2em
+}
+
+span:nth-child(11) {
+  margin-left: .2em
+}
+
 /*top menu*/
 
 .topmenu {
