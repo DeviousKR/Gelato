@@ -159,3 +159,29 @@ ul li ul li {
     width: 6vw;
     text-align: center;
 }
+
+/*text*/
+
+.text {
+    color: #ffffff;
+    background: hsla(188, 0%, 11%, 1);
+    box-shadow:0 0 50px -12px #000;
+    width:54vw;
+    text-align: justify;
+    padding-left:2vw;
+    padding-right:3vw;
+    padding-top: 2vh;
+    padding-bottom:2vh;
+    margin-top: 5vh;
+    float: left;
+}
+
+/*images*/
+
+.images {
+  box-shadow:0 0 50px -12px #000;
+  margin-top: 5vh;
+  float: left;
+  width: 38vw;
+  margin-left:.5vh;
+}
